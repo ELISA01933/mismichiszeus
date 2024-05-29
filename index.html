@@ -1,0 +1,90 @@
+ <!--Esto es un comentario-->
+<!--Clase 29 de abril de 2024-->
+
+<!DOCTYPE html>
+<html lang="es">   <!--Para poner el idioma de nuestra pagina-->
+<head>
+    <meta charset="UTF-8"> <!--Para la composicion de los caracteres que usamos y es para que se escriban bien-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Como se visualiza nuestra pagina-->
+    <title>Mi primera Pagina</title>
+    <link href="estilos.css" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Briem+Hand:wght@100..900&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+    <h1>Mis gatitos</h1>
+    <h3>Imagenes de mis gatitos</h3>
+
+    <!--VAMOS A INSERTAR IMAGENES A LA PAGINA-->
+
+    <!--DOS FORMAS DE PONER IMAGENES: INTERNET Y DESCRGADA-desde nuestra galeria.-->
+
+    <!--DESDE INTERNET-->
+  <!--1ero ponemos <img src ="">, donde estan las comillas va la direccion de la imagen (vimculo). src se refiere a la fuente de donde estamos obteniendo la imagen-->
+<!--Usamos class para diferenciar las imagenes unas de otras-->
+  <img class="img1" src="https://2.bp.blogspot.com/-ldAbyujUy8M/V1emzJAWY0I/AAAAAAAAAuQ/F68N1ptNpJM2wb86ukf-onL-rzv2Z7paQCKgB/s1600/adorable-chaton-qui-a-sommeil.jpg">
+
+<!--El <br> funciona para poder poner las imagenes una abajo de la otra
+Primero debes de ponerlo abajo de donde termina la primera imagen y antes de que inicie la otra
+; para el espacio entre el contenido y el espacio se usa "padding", para ponerle un margen que no este dentro del contenido, ni del padding usamos "maargin"-->
+
+<!--DESDE nuestra galeria de la compu, descargada-->
+<!--Primero creamos una nueva carpeta dentro de nuestra carpeta principal, Segundo agregar fotos a esa carpeta nueva-->
+<!--Tercero, ponemos lo mismo que el anterior, ponemos la ruta de la carpeta imagen y la imagen a poner-->
+    <img class="img2" src="imagenes/ZEUS.jpeg">
+
+<!--INSERTAR ENLACES EXTERNOS-->
+<!--Primero ponemos un parrafo-->
+<!--Insertar el link el hipervinculo, ponemos la etiqueta <a></a>, en cuestion en la palabra "link"-->
+<!--Dentro de <a> agregamos "href" que es el hipervinculo igual a = despues el vintulo de otra pagina o album, dentro del mismo agregamos  'target="_blank"' el cual abrira una pestaña nueva sin quitar la tuya'-->
+
+<p>Si quieres ver mas imagenes de mis gatitos,<a href="https://www.instagram.com/eli_lop_zar/" target="_blank">ingresa a este link</a></p>
+
+<!--Crear listas ordenadas-->
+
+<h3>3 cosas que mis gatitos aman</h3>
+
+<!--para crear listas ordenadas ponemos <ol> para un orden de lista con numero, la etiqueta <li> para poner la lista en orden en numeros -->
+ <ol>
+    <li>Dormir</li>
+    <li>Jugar</li>
+    <li>Comer</li>
+ </ol> 
+ 
+ <h3>3 cosas que mis gatitos odian</h3>
+ <!--listas desordenadas, la etiqueta <ul> para poner puntitos en la lista en ves de numeros-->
+    <ul>
+        <li>Bañarse</li>
+        <li>Estar solitos</li>
+        <li>Tener frio</li>
+    </ul>
+
+    <h3>Como fue que supe que mi gatito era hembra</h3>
+    <p>En un primer momento, <em>no sabiamos que "era"</em> mi <b>Zeus</b>, dado que nos lo regalaron cuando aun estaba muy pequeño,<br> con el tiempo no fue muy relevante para nostros saber que era jajaja, pero la forma en la cual supimos fue hasta que <br> ella <i>estuvo embarazada</i>, pero su parto fue otra historia</p>
+
+    <!--Para poner palabras en negritas se pone <strong> es para resaltar los titulos, resaltar como importante y darle enfasis.
+    <b> para solo ponerla en negrita.
+    Para poner en cursivas un texto usamos <i> o <em> -->
+
+     <!--Para poner mas bonito el texto y en parrafos, ponemos br para separarlo, es decir un salto de linea-->   
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/mnSqENAIwXQ?si=o_K_oC4beCwL8z2z" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+</main>
+
+    <footer>
+        <p><small>Esta pagina fue creada durante el bootcamp de <a href="https://tecnolochicas.mx/" target="_blank">Tecnlochicas PRO</a></small></p>
+    </footer>
+
+</body>
+
+<!--Poner pie de pagina-->
+</html>
+
+<!--Clase de hoy, estetica-->
+<!--Que es CSS-Cascading Style Sheets:Hoja de Estilo en cascada, para poner el estilo en las paginas web
+Podemos agregar el estilo a una sola linea mediante "<elemt style =" "> </elemt>"
+El externo consist en hacerlo en otro lado y enlazarlo con el CSS-->
+

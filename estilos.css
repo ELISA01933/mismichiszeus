@@ -1,0 +1,46 @@
+/*PARA PONER UN COMENTARIO EN CSS*/
+/*El primer elemento indica donde voy a afectar el estilo*/
+body {
+    background-color:bisque;
+    color:#b8709a;
+    font-family: "Briem Hand", cursive;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/*Para ponerle el mismo formato a dos partes de nuestro codigo*/
+h1, p{
+    color:blueviolet;
+}
+
+/*Para ajustar el tamaño de lo ancho de las fts usamos "wifth: resolucion px"
+Para poner la altur utilizamos "height: resolucion px"*/
+/*Para que css reconozca que se trata de una clase ponemos un punto y luego el nombre de dicha clase*/
+
+.img1{
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+    margin-left: 345px;
+    border-style:double; 
+    border-width: 10px;
+    border-color:black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+.img2{
+    width: 250px;
+    height: 255px;
+    margin: 50px;
+    border-style:double;
+    border-width: 10px;
+    border-color: black;
+    border-radius: 12px;
+    padding: 10px;
+}
+
+a{
+    color:black;
+}
